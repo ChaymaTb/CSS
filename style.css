@@ -7,7 +7,7 @@
     scroll-behavior: smooth;
 }
 header{
-    background-color: #E6E6FA;
+    background-color: #5F9EA0	;
     width: 100%;
     position: fixed; /*fixing the header*/
     z-index: 999; /*the header stay appeared while moving through the page */
@@ -18,18 +18,49 @@ header{
 }
 .logo{
     text-decoration: none; /*removing the underline text*/
-    color: #4682B4;
-    text-transform: uppercase;
+    color: #D8BFD8;
     font-weight: 600;
     font-size: 1.5em;
 }
 .Navigation a{
-    color: #4682B4;
+    color: #D8BFD8;
     text-decoration: none;
     font-weight: 400;
     font-size: 1.0em;
     padding-left: 20px;
 }
 .Navigation a:hover{
-    color: 	#c852cc;
+    color: 	#483D8B; /* the color changes when */
 }
+section{
+   padding: 100px 200px; 
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #E6E6FA;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2{
+    color: #778899	;
+    font-size: 1.8em;
+    font-weight: 500;
+}
+.main p{
+    color: #778899;
+    font-size: 1.5em;
+    justify-content:left ;
+}
+.main img {
+    margin: 10px 300px;
+}
+/* @font-face {
+    font-family: "chathurabold";
+    src: url("../font/chathura_bold_macroman/chachathura-bold-webfont.eot");
+    font-weight: normal;
+    font-style: normal;
+} */
